@@ -1,0 +1,134 @@
+#include <iostream>
+using namespace std;
+//
+//int main() {
+//     local variable declaration:
+//    int a = 10;
+//
+//     while loop execution
+//    while (a < 20) {
+//        cout << "value of a: " << a << endl;
+//        a++;
+//    }
+//
+//    return 0;
+//}
+//
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//     for loop execution
+//    for (int a = 10; a < 20; a = a + 1) {
+//        cout << "value of a: " << a << endl;
+//    }
+//
+//    return 0;
+//}
+//
+//#include <iostream>
+//using namespace std;
+//
+//int main() {
+//
+//    int a = 10;
+//
+//    do {
+//        cout << "value of a: " << a << endl;
+//        a = a + 1;
+//    } while (a < 20);
+//
+//    return 0;
+//}
+//
+// 
+//
+//#include <iostream>
+//? ? ? ? //what should be here????
+//int main()
+//{
+//	? ? ? ? answ; //what should be instead of ????
+//	cout << "is this a duck? write no or yes. " << endl;
+//	? ? ? ? >> answ; //what should be instead of ????
+//	if (answ == "????")  //what should be instead of ????
+//	{
+//		cout << "hello duck";
+//	}
+//	else ? ? ? ? << "bye"; //what should be instead of ????
+//	return 0;
+//}
+//
+//
+//int main() {
+//	//Local variable declaration:
+//	string myname;
+//
+//	//do loop execution
+//	do {
+//		cout << "Enter my name " << endl;
+//		cin >> myname;
+//		if (myname == "no") { cout << "yes!"; };
+//	} while (myname != "Olesja");
+//
+//	return 0;
+//}
+//
+//#include<iostream>
+//using namespace std;
+//bool isNumber(string s)
+//{
+//	for (int i = 0; i < s.length(); i++)
+//		if (isdigit(s[i]) == false)
+//			return false;
+//	return true;
+//}
+//int main() {
+//	//Local variable decloration:
+//	string myname;
+//
+//	//do loop execution
+//
+//	do {
+//
+//		cout << "Enter my name " << endl;
+//		cin >> myname;
+//
+//		if (isNumber(myname)) { cout << "That is a number!"; };
+//	} while (myname != "Olesja");
+//
+//	return 0;
+//}
+//
+//
+//include <iostream>
+//
+//using namespace std;
+//
+//double loopFib(double number)
+//{
+//	double temp = 0, value1 = 0, value2 = 1;
+//
+//	if (number == 0) return value1;
+//	if (number == 1) return value2;
+//
+//	for (int count = 2; count <= number: count++)
+//	{
+//		temp = value2;
+//		value2 = value2 + value1;
+//		value1 = temp;
+//	}
+//	return value2;
+//}
+//
+//int main(void)
+//{
+//	double n = 10;
+//
+//	double looptotal = 0;
+//
+//	looptotal = loopFip(n);
+//	cout << "looptotal =" << looptotal << endl;
+//	cin.get();
+//	return 0;
+//
+//}
