@@ -77,3 +77,24 @@ int main()
 
 	return 0;
 }
+#include <iostream>
+using namespace std;
+int main()
+{
+	int temp;
+	cin >> temp;
+	if (temp < 0)
+	{
+		cout << "TEMPERATURA IR NEGATIVA" << endl;
+	}
+	else if(temp>0)
+	{
+		cout << "TEMPERATURA IR pozitiva" << endl;
+	}
+	else 
+	{
+		cout << "TEMPERATURA IR neitrala" << endl;
+	}
+	return 0;
+}
+
