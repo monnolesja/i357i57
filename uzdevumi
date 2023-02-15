@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+int main()
+
+{
+	/*int i;
+	while (i < 125) {
+		i++;
+		cout << i * 3 << endl;
+		*/
+		/*
+		{
+		int i = 20;
+		while (i > 1) {
+		 i--;
+		 cout << i*i*i << endl;
+		 }
+		 */
+		 /*
+		 int i=0;
+		 while (i >1000){
+		 i++;
+		 cout<<"1/" << i<<"," <<endl
+		 */
+		 /*
+
+		 cout << "                                          *" << endl;
+		 cout << "                                         ***" << endl;
+		 cout << "                                        *****" << endl;
+		 cout << "                                       *******" << endl;
+		 cout << "                                      *********" << endl;
+		 cout << "                                     ***********" << endl;
+		 cout << "                                    *************" << endl;
+		 cout << "                                          *" << endl;
+		 cout << "                                         ***" << endl;
+		 cout << "                                        *****" << endl;
+		 cout << "                                       *******" << endl;
+		 cout << "                                      *********" << endl;
+		 cout << "                                     ***********" << endl;
+		 cout << "                                    *************" << endl;
+		 cout << "                                   ***************" << endl;
+		 cout << "                                   ***************" << endl;
+		 cout << "                                          *" << endl;
+		 cout << "                                         ***" << endl;
+		 cout << "                                        *****" << endl;
+		 cout << "                                       *******" << endl;
+		 cout << "                                      *********" << endl;
+		 cout << "                                     ***********" << endl;
+		 cout << "                                    *************" << endl;
+			 cout << "                               ***************" << endl;
+			 return 0;
+			 */
+    /*
+	string data;
+	do {
+	  cin >> data;
+	  cout << data << endl;
+	} while (data != "stop");
+	  return 0;*/
+	/*
+	string parole; 
+	int i = 5;
+	do {
+	    cin parole;
+		i--;
+		if(i== 0) {
+		cout << "You are out of attemps";
+		break;
+		}
+	} while (parole != "123");*/
+	int i = 1005;
+
+	do {
+		i = i - 5;
+		cout << i << endl;
+	} while (i != 0);
+
+	return 0;
+}
